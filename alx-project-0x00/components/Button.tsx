@@ -4,7 +4,7 @@ import React from "react";
 const Button: React.FC<ButtonProps> = ({ title, styles }) => {
   return (
     <button
-      className={`px-4 py-2 bg-blue-500 text-white font-medium hover:bg-blue-600 transition ${styles}`}
+      className={`px-4 py-2 bg-green-500 text-white font-medium hover:bg-green-600 transition ${styles}`}
     >
       {title}
     </button>
